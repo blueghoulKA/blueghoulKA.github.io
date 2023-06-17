@@ -30,7 +30,7 @@
             var curl = "wss://blueghoulka.github.io/connect/game1";
             var socket = new WebSocket(curl, "main");
             setInterval(()=>{
-                println(socket.readyState);
+                console.log(socket.readyState);
             }, 1000);
         </script>
     </body>
