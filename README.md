@@ -1,1 +1,0 @@
-# blueghoulKA.github.io
