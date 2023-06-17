@@ -25,6 +25,13 @@
                 Blue Ghoul's website
             </div>
         </div>
-        <h1>Hi! I'm working! yet again again</h1>
+        <h1>v0.1</h1>
+        <script>
+            var curl = "wss://blueghoulka.github.io/connect/game1";
+            var socket = new WebSocket(curl, "main");
+            setInterval(()=>{
+                println(socket.readyState);
+            }, 1000);
+        </script>
     </body>
 </html>
